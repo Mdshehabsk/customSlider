@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+.all-slider{
+    background-color: #f3f3f3;
+    width: 1000px;
+    margin: 100px auto;
+    position: relative;
+}
+.single-slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+.single-slider .slider-img{
+    width: 45%;
+    height: 490px;
+}
+.single-slider .slider-info{
+    width: 45%;
+}
+.single-slider .slider-info h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #10ac84;
+}
+.single-slider .slider-info p{
+    line-height: 1;
+    font-size: 20px;
+}
+.single-slider .slider-info .btn{
+    display: flex;
+    justify-content: center;
+}
+.single-slider .slider-info .btn button{
+    padding: 15px 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: .4s ease;
+    margin-top: 10px;
+}
+.single-slider .slider-info .btn button:hover{
+    background-color:#10ac84;
+    color: #fff;
+}
+.slider-btn i{
+    color: #10ac84;
+    font-size: 50px;
+    cursor: pointer;
+}
+.slider-btn i.fa-chevron-left{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+.slider-btn i.fa-chevron-right{
+    position: absolute;
+    right: 0%;
+    top: 50%;
+}
